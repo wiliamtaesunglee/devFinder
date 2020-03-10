@@ -1,4 +1,4 @@
-download and acces folder, and run:
+run:
 
 npm install
 
