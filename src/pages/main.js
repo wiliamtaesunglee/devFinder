@@ -6,6 +6,10 @@ import config from '../../config';
 
 // Log in to get an authentication token
 export default class Main extends Component {
+  static navigationOptions = {
+      title: "DevFinder"
+  };
+
   async _authorize () {
     try {
       // Make request to Github to get token
